@@ -1,0 +1,47 @@
+.box-1{
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+.box-2{
+    width: 100px;
+    height: 100px;
+    background: green;
+}
+.box-3{
+    width: 100px;
+    height: 100px;
+    background: blue;
+}
+.box-4{
+    width: 100px;
+    height: 100px;
+    background: yellow;
+}
+.box-5{
+    width: 100px;
+    height: 100px;
+    background: yellowgreen;
+}
+.box-6{
+    width: 100px;
+    height: 100px;
+    background: purple;
+}
+.box-7{
+    width: 100px;
+    height: 100px;
+    background: peru;
+}
+
+
+.flex {
+    display: flex;
+    height: 600px;
+    /* flex-direction: row; viene configurado por defecto */
+    /* flex-direction: row;
+    justify-content: space-around;
+    align-items: center; */
+    /* flex-wrap: nowrap; viene configurado por defecto*/
+    flex-wrap: wrap;
+}

@@ -1,0 +1,87 @@
+/*
+1 pulgada = 96 px = 2.54 cm
+
+- `px` → pixel → 1/94 de una pulgada
+- `pt` → punto → 1/72 de una pulgada
+- `pc` → picas  → 12 puntos
+- `in` → pulgada
+- `cm` → centímetro
+- `mm` → milímetro
+*/
+
+
+.px {
+    font-size: 10px;
+}
+.cm {
+    font-size: 0.8cm;
+}
+
+.mm {
+    font-size: 5mm;
+}
+
+.in {
+    font-size: 0.2in;
+}
+
+.pt {
+    font-size: 10pt;
+}
+.abuelo {
+   /*el abuelo no tiene width :( */
+}
+
+.padre {
+    /*el padre no tiene width :( */
+    height: 200px;
+    border: 2px solid red;
+}
+
+.hijo {
+    width: 50%; /* 300px * 0,1 = 30px */
+    height: 50%;
+    background: black;
+}
+
+/* ----------- */
+.padre-em {
+    font-size: 10px;
+}
+
+.hijo-em{
+    font-size: 2em;
+}
+
+/* ----------- */
+
+html {
+    font-size: 16px;
+}
+
+.padre-rem {
+    font-size: 2rem;
+}
+
+.hijo-rem{
+    font-size: 3rem;
+}
+
+/* ----------- */
+
+.vw {
+    width: 10vw;
+    height: 100px;
+    background: red;
+}
+
+/* ----------- */
+.vh {
+    width: 100px;
+    height: 10vh;
+    background: red;
+}
+
+.clamp {
+    font-size: clamp(42px, 9.7vw, 180px);
+}
